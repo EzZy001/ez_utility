@@ -108,7 +108,7 @@ local function LSPDCadetPatrola()
         ["mask_1"] = 0,         -- a
         ["mask_2"] = 0,         -- a
 
-        ["bags_1"] = 0,         -- a
+        ["bags_1"] = 0,         -- a 
         ["bags_2"] = 0,         -- a
 
         ["decals_1"] = 0,       -- a
@@ -621,36 +621,36 @@ end
 local function LSSDCadetPatrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["tshirt_1"] = 245,     -- a
+        ["tshirt_1"] = 225,     -- a
         ["tshirt_2"] = 0,       -- a
 
         ["torso_1"] = 586,      -- a
         ["torso_2"] = 2,        -- a
 
-        ["arms"] = 4,          -- a 
+        ["arms"] = 86,          -- a 
 
-        ["bproof_1"] = 92,     -- a
+        ["bproof_1"] = 99,      -- a
         ["bproof_2"] = 0,       -- a
 
-        ["pants_1"] = 235,      -- a 
+        ["pants_1"] = 199,      -- a 
         ["pants_2"] = 0,        -- a
 
         ["shoes_1"] = 25,       -- a
         ["shoes_2"] = 0,        -- a
 
-        ["helmet_1"] = 229,      -- a
+        ["helmet_1"] = 225,     -- a
         ["helmet_2"] = 0,       -- a
 
-        ["mask_1"] = 257,         -- a
-        ["mask_2"] = 2,         -- a
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
 
-        ["bags_1"] = 143,       -- a
+        ["bags_1"] = 0,         -- a
         ["bags_2"] = 0,         -- a
 
-        ["decals_1"] = 0,     -- a
+        ["decals_1"] = 0,       -- a
         ["decals_2"] = 0,       -- a 
 
-        ["chain_1"] = 192,      -- a
+        ["chain_1"] = 0,        -- a
         ["chain_2"] = 0,        -- a 
 
     })
@@ -659,372 +659,446 @@ end
 local function LSSDDeputyPatrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["mask_1"] = 0,         -- 
-        ["mask_2"] = 0,         --  
-        ["arms"] = 92,          --   
-        ["pants_1"] = 269,      --  
-        ["pants_2"] = 0,        --
-        ["shoes_1"] = 51,       --
-        ["shoes_2"] = 0,        --
-        ["tshirt_1"] = 337,     --
-        ["tshirt_2"] = 0,       --
-        ["torso_1"] = 616,      --
-        ["torso_2"] = 1,        --
-        ["decals_1"] = 0,       -- 
-        ["decals_2"] = 0,       --
-        ["glasses_1"] = 0,      -- 
-        ["glasses_2"] = 0,      -- 
-        ["helmet_1"] = -1,      --
-        ["helmet_2"] = 0,       --
-        ["chain_1"] = 224,      -- 
-        ["chain_2"] = 0,        -- 
-        ["watches_1"] = 0,      --
-        ["watches_2"] = 0,      --
-        ["bags_1"] = 145,       --
-        ["bags_2"] = 0,         --
-        ["bproof_1"] = 115,     --
-        ["bproof_2"] = 0        --
+        ["tshirt_1"] = 225,     -- a
+        ["tshirt_2"] = 0,       -- a
+
+        ["torso_1"] = 584,      -- a
+        ["torso_2"] = 2,        -- a
+
+        ["arms"] = 86,          -- a 
+
+        ["bproof_1"] = 99,      -- a
+        ["bproof_2"] = 0,       -- a
+
+        ["pants_1"] = 199,      -- a 
+        ["pants_2"] = 0,        -- a
+
+        ["shoes_1"] = 25,       -- a
+        ["shoes_2"] = 0,        -- a
+
+        ["helmet_1"] = 225,     -- a
+        ["helmet_2"] = 0,       -- a
+
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
+
+        ["bags_1"] = 143,       -- a
+        ["bags_2"] = 0,         -- a
+
+        ["decals_1"] = 0,       -- a
+        ["decals_2"] = 0,       -- a 
+
+        ["chain_1"] = 0,        -- a
+        ["chain_2"] = 0,        -- a 
+
     })
 end
 
 local function LSSDDeputy1Patrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["mask_1"] = 0,         -- 
-        ["mask_2"] = 0,         --  
-        ["arms"] = 92,          --   
-        ["pants_1"] = 269,      --  
-        ["pants_2"] = 0,        --
-        ["shoes_1"] = 51,       --
-        ["shoes_2"] = 0,        --
-        ["tshirt_1"] = 337,     --
-        ["tshirt_2"] = 0,       --
-        ["torso_1"] = 616,      --
-        ["torso_2"] = 1,        --
-        ["decals_1"] = 0,       -- 
-        ["decals_2"] = 0,       --
-        ["glasses_1"] = 0,      -- 
-        ["glasses_2"] = 0,      -- 
-        ["helmet_1"] = -1,      --
-        ["helmet_2"] = 0,       --
-        ["chain_1"] = 224,      -- 
-        ["chain_2"] = 0,        -- 
-        ["watches_1"] = 0,      --
-        ["watches_2"] = 0,      --
-        ["bags_1"] = 145,       --
-        ["bags_2"] = 0,         --
-        ["bproof_1"] = 115,     --
-        ["bproof_2"] = 0        --
+        ["tshirt_1"] = 225,     -- a
+        ["tshirt_2"] = 0,       -- a
+
+        ["torso_1"] = 584,      -- a
+        ["torso_2"] = 2,        -- a
+
+        ["arms"] = 86,          -- a 
+
+        ["bproof_1"] = 99,      -- a
+        ["bproof_2"] = 0,       -- a
+
+        ["pants_1"] = 199,      -- a 
+        ["pants_2"] = 0,        -- a
+
+        ["shoes_1"] = 25,       -- a
+        ["shoes_2"] = 0,        -- a
+
+        ["helmet_1"] = 225,     -- a
+        ["helmet_2"] = 0,       -- a
+
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
+
+        ["bags_1"] = 143,       -- a
+        ["bags_2"] = 0,         -- a
+
+        ["decals_1"] = 0,       -- a
+        ["decals_2"] = 0,       -- a 
+
+        ["chain_1"] = 0,        -- a
+        ["chain_2"] = 0,        -- a 
+
     })
 end
 
 local function LSSDDeputy2Patrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["mask_1"] = 0,         -- 
-        ["mask_2"] = 0,         --  
-        ["arms"] = 92,          --   
-        ["pants_1"] = 269,      --  
-        ["pants_2"] = 0,        --
-        ["shoes_1"] = 51,       --
-        ["shoes_2"] = 0,        --
-        ["tshirt_1"] = 337,     --
-        ["tshirt_2"] = 0,       --
-        ["torso_1"] = 616,      --
-        ["torso_2"] = 1,        --
-        ["decals_1"] = 0,       -- 
-        ["decals_2"] = 0,       --
-        ["glasses_1"] = 0,      -- 
-        ["glasses_2"] = 0,      -- 
-        ["helmet_1"] = -1,      --
-        ["helmet_2"] = 0,       --
-        ["chain_1"] = 224,      -- 
-        ["chain_2"] = 0,        -- 
-        ["watches_1"] = 0,      --
-        ["watches_2"] = 0,      --
-        ["bags_1"] = 145,       --
-        ["bags_2"] = 0,         --
-        ["bproof_1"] = 115,     --
-        ["bproof_2"] = 0        --
+        ["tshirt_1"] = 225,     -- a
+        ["tshirt_2"] = 0,       -- a
+
+        ["torso_1"] = 584,      -- a
+        ["torso_2"] = 2,        -- a
+
+        ["arms"] = 86,          -- a 
+
+        ["bproof_1"] = 99,      -- a
+        ["bproof_2"] = 0,       -- a
+
+        ["pants_1"] = 199,      -- a 
+        ["pants_2"] = 0,        -- a
+
+        ["shoes_1"] = 25,       -- a
+        ["shoes_2"] = 0,        -- a
+
+        ["helmet_1"] = 225,     -- a
+        ["helmet_2"] = 0,       -- a
+
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
+
+        ["bags_1"] = 143,       -- a
+        ["bags_2"] = 0,         -- a
+
+        ["decals_1"] = 207,     -- a
+        ["decals_2"] = 0,       -- a 
+
+        ["chain_1"] = 0,        -- a
+        ["chain_2"] = 0,        -- a 
     })
 end
 
 local function LSSDDeputyMasterPatrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["mask_1"] = 0,         -- 
-        ["mask_2"] = 0,         --  
-        ["arms"] = 92,          --   
-        ["pants_1"] = 269,      --  
-        ["pants_2"] = 0,        --
-        ["shoes_1"] = 51,       --
-        ["shoes_2"] = 0,        --
-        ["tshirt_1"] = 337,     --
-        ["tshirt_2"] = 0,       --
-        ["torso_1"] = 616,      --
-        ["torso_2"] = 1,        --
-        ["decals_1"] = 0,       -- 
-        ["decals_2"] = 0,       --
-        ["glasses_1"] = 0,      -- 
-        ["glasses_2"] = 0,      -- 
-        ["helmet_1"] = -1,      --
-        ["helmet_2"] = 0,       --
-        ["chain_1"] = 224,      -- 
-        ["chain_2"] = 0,        -- 
-        ["watches_1"] = 0,      --
-        ["watches_2"] = 0,      --
-        ["bags_1"] = 145,       --
-        ["bags_2"] = 0,         --
-        ["bproof_1"] = 115,     --
-        ["bproof_2"] = 0        --
+        ["tshirt_1"] = 225,     -- a
+        ["tshirt_2"] = 0,       -- a
+
+        ["torso_1"] = 584,      -- a
+        ["torso_2"] = 2,        -- a
+
+        ["arms"] = 86,          -- a 
+
+        ["bproof_1"] = 99,      -- a
+        ["bproof_2"] = 0,       -- a
+
+        ["pants_1"] = 199,      -- a 
+        ["pants_2"] = 0,        -- a
+
+        ["shoes_1"] = 25,       -- a
+        ["shoes_2"] = 0,        -- a
+
+        ["helmet_1"] = 225,     -- a
+        ["helmet_2"] = 0,       -- a
+
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
+
+        ["bags_1"] = 143,       -- a
+        ["bags_2"] = 0,         -- a
+
+        ["decals_1"] = 215,     -- a
+        ["decals_2"] = 0,       -- a 
+
+        ["chain_1"] = 0,        -- a
+        ["chain_2"] = 0,        -- a 
     })
 end
 
 local function LSSDSergeantPatrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["mask_1"] = 0,         -- 
-        ["mask_2"] = 0,         --  
-        ["arms"] = 92,          --   
-        ["pants_1"] = 269,      --  
-        ["pants_2"] = 0,        --
-        ["shoes_1"] = 51,       --
-        ["shoes_2"] = 0,        --
-        ["tshirt_1"] = 337,     --
-        ["tshirt_2"] = 0,       --
-        ["torso_1"] = 616,      --
-        ["torso_2"] = 1,        --
-        ["decals_1"] = 0,       -- 
-        ["decals_2"] = 0,       --
-        ["glasses_1"] = 0,      -- 
-        ["glasses_2"] = 0,      -- 
-        ["helmet_1"] = -1,      --
-        ["helmet_2"] = 0,       --
-        ["chain_1"] = 224,      -- 
-        ["chain_2"] = 0,        -- 
-        ["watches_1"] = 0,      --
-        ["watches_2"] = 0,      --
-        ["bags_1"] = 145,       --
-        ["bags_2"] = 0,         --
-        ["bproof_1"] = 115,     --
-        ["bproof_2"] = 0        --
+        ["tshirt_1"] = 225,     -- a
+        ["tshirt_2"] = 0,       -- a
+
+        ["torso_1"] = 584,      -- a
+        ["torso_2"] = 2,        -- a
+
+        ["arms"] = 86,          -- a 
+
+        ["bproof_1"] = 99,      -- a
+        ["bproof_2"] = 0,       -- a
+
+        ["pants_1"] = 199,      -- a 
+        ["pants_2"] = 0,        -- a
+
+        ["shoes_1"] = 25,       -- a
+        ["shoes_2"] = 0,        -- a
+
+        ["helmet_1"] = 225,     -- a
+        ["helmet_2"] = 0,       -- a
+
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
+
+        ["bags_1"] = 143,       -- a
+        ["bags_2"] = 1,         -- a
+
+        ["decals_1"] = 208,     -- a
+        ["decals_2"] = 0,       -- a 
+
+        ["chain_1"] = 0,        -- a
+        ["chain_2"] = 0,        -- a 
     })
 end
 
 local function LSSDLieutenantPatrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["mask_1"] = 0,         -- 
-        ["mask_2"] = 0,         --  
-        ["arms"] = 92,          --   
-        ["pants_1"] = 269,      --  
-        ["pants_2"] = 0,        --
-        ["shoes_1"] = 51,       --
-        ["shoes_2"] = 0,        --
-        ["tshirt_1"] = 337,     --
-        ["tshirt_2"] = 0,       --
-        ["torso_1"] = 616,      --
-        ["torso_2"] = 1,        --
-        ["decals_1"] = 0,       -- 
-        ["decals_2"] = 0,       --
-        ["glasses_1"] = 0,      -- 
-        ["glasses_2"] = 0,      -- 
-        ["helmet_1"] = -1,      --
-        ["helmet_2"] = 0,       --
-        ["chain_1"] = 224,      -- 
-        ["chain_2"] = 0,        -- 
-        ["watches_1"] = 0,      --
-        ["watches_2"] = 0,      --
-        ["bags_1"] = 145,       --
-        ["bags_2"] = 0,         --
-        ["bproof_1"] = 115,     --
-        ["bproof_2"] = 0        --
+        ["tshirt_1"] = 225,     -- a
+        ["tshirt_2"] = 0,       -- a
+
+        ["torso_1"] = 584,      -- a
+        ["torso_2"] = 2,        -- a
+
+        ["arms"] = 86,          -- a 
+
+        ["bproof_1"] = 99,      -- a
+        ["bproof_2"] = 0,       -- a
+
+        ["pants_1"] = 199,      -- a 
+        ["pants_2"] = 0,        -- a
+
+        ["shoes_1"] = 25,       -- a
+        ["shoes_2"] = 0,        -- a
+
+        ["helmet_1"] = 225,     -- a
+        ["helmet_2"] = 0,       -- a
+
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
+
+        ["bags_1"] = 143,       -- a
+        ["bags_2"] = 2,         -- a
+
+        ["decals_1"] = 199,     -- a
+        ["decals_2"] = 0,       -- a 
+
+        ["chain_1"] = 0,        -- a
+        ["chain_2"] = 0,        -- a 
     })
 end
 
 local function LSSDCaptainPatrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["mask_1"] = 0,         -- 
-        ["mask_2"] = 0,         --  
-        ["arms"] = 92,          --   
-        ["pants_1"] = 269,      --  
-        ["pants_2"] = 0,        --
-        ["shoes_1"] = 51,       --
-        ["shoes_2"] = 0,        --
-        ["tshirt_1"] = 337,     --
-        ["tshirt_2"] = 0,       --
-        ["torso_1"] = 616,      --
-        ["torso_2"] = 1,        --
-        ["decals_1"] = 0,       -- 
-        ["decals_2"] = 0,       --
-        ["glasses_1"] = 0,      -- 
-        ["glasses_2"] = 0,      -- 
-        ["helmet_1"] = -1,      --
-        ["helmet_2"] = 0,       --
-        ["chain_1"] = 224,      -- 
-        ["chain_2"] = 0,        -- 
-        ["watches_1"] = 0,      --
-        ["watches_2"] = 0,      --
-        ["bags_1"] = 145,       --
-        ["bags_2"] = 0,         --
-        ["bproof_1"] = 115,     --
-        ["bproof_2"] = 0        --
+        ["tshirt_1"] = 225,     -- a
+        ["tshirt_2"] = 0,       -- a
+
+        ["torso_1"] = 584,      -- a
+        ["torso_2"] = 2,        -- a
+
+        ["arms"] = 86,          -- a 
+
+        ["bproof_1"] = 99,      -- a
+        ["bproof_2"] = 0,       -- a
+
+        ["pants_1"] = 199,      -- a 
+        ["pants_2"] = 0,        -- a
+
+        ["shoes_1"] = 25,       -- a
+        ["shoes_2"] = 0,        -- a
+
+        ["helmet_1"] = 225,     -- a
+        ["helmet_2"] = 0,       -- a
+
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
+
+        ["bags_1"] = 143,       -- a
+        ["bags_2"] = 3,         -- a
+
+        ["decals_1"] = 199,     -- a
+        ["decals_2"] = 2,       -- a 
+
+        ["chain_1"] = 0,        -- a
+        ["chain_2"] = 0,        -- a 
     })
 end
 
 local function LSSDCommanderPatrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["mask_1"] = 0,         -- 
-        ["mask_2"] = 0,         --  
-        ["arms"] = 92,          --   
-        ["pants_1"] = 269,      --  
-        ["pants_2"] = 0,        --
-        ["shoes_1"] = 51,       --
-        ["shoes_2"] = 0,        --
-        ["tshirt_1"] = 337,     --
-        ["tshirt_2"] = 0,       --
-        ["torso_1"] = 616,      --
-        ["torso_2"] = 1,        --
-        ["decals_1"] = 0,       -- 
-        ["decals_2"] = 0,       --
-        ["glasses_1"] = 0,      -- 
-        ["glasses_2"] = 0,      -- 
-        ["helmet_1"] = -1,      --
-        ["helmet_2"] = 0,       --
-        ["chain_1"] = 224,      -- 
-        ["chain_2"] = 0,        -- 
-        ["watches_1"] = 0,      --
-        ["watches_2"] = 0,      --
-        ["bags_1"] = 145,       --
-        ["bags_2"] = 0,         --
-        ["bproof_1"] = 115,     --
-        ["bproof_2"] = 0        --
+        ["tshirt_1"] = 225,     -- a
+        ["tshirt_2"] = 0,       -- a
+
+        ["torso_1"] = 584,      -- a
+        ["torso_2"] = 2,        -- a
+
+        ["arms"] = 86,          -- a 
+
+        ["bproof_1"] = 99,      -- a
+        ["bproof_2"] = 0,       -- a
+
+        ["pants_1"] = 199,      -- a 
+        ["pants_2"] = 0,        -- a
+
+        ["shoes_1"] = 25,       -- a
+        ["shoes_2"] = 0,        -- a
+
+        ["helmet_1"] = 225,     -- a
+        ["helmet_2"] = 0,       -- a
+
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
+
+        ["bags_1"] = 143,       -- a
+        ["bags_2"] = 4,         -- a
+
+        ["decals_1"] = 199,     -- a
+        ["decals_2"] = 3,       -- a 
+
+        ["chain_1"] = 0,        -- a
+        ["chain_2"] = 0,        -- a 
     })
 end
 
 local function LSSDDivisionChiefPatrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["mask_1"] = 0,         -- 
-        ["mask_2"] = 0,         --  
-        ["arms"] = 92,          --   
-        ["pants_1"] = 269,      --  
-        ["pants_2"] = 0,        --
-        ["shoes_1"] = 51,       --
-        ["shoes_2"] = 0,        --
-        ["tshirt_1"] = 337,     --
-        ["tshirt_2"] = 0,       --
-        ["torso_1"] = 616,      --
-        ["torso_2"] = 1,        --
-        ["decals_1"] = 0,       -- 
-        ["decals_2"] = 0,       --
-        ["glasses_1"] = 0,      -- 
-        ["glasses_2"] = 0,      -- 
-        ["helmet_1"] = -1,      --
-        ["helmet_2"] = 0,       --
-        ["chain_1"] = 224,      -- 
-        ["chain_2"] = 0,        -- 
-        ["watches_1"] = 0,      --
-        ["watches_2"] = 0,      --
-        ["bags_1"] = 145,       --
-        ["bags_2"] = 0,         --
-        ["bproof_1"] = 115,     --
-        ["bproof_2"] = 0        --
+        ["tshirt_1"] = 225,     -- a
+        ["tshirt_2"] = 0,       -- a
+
+        ["torso_1"] = 584,      -- a
+        ["torso_2"] = 2,        -- a
+
+        ["arms"] = 86,          -- a 
+
+        ["bproof_1"] = 99,      -- a
+        ["bproof_2"] = 0,       -- a
+
+        ["pants_1"] = 199,      -- a 
+        ["pants_2"] = 0,        -- a
+
+        ["shoes_1"] = 25,       -- a
+        ["shoes_2"] = 0,        -- a
+
+        ["helmet_1"] = 225,     -- a
+        ["helmet_2"] = 0,       -- a
+
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
+
+        ["bags_1"] = 143,       -- a
+        ["bags_2"] = 5,         -- a
+
+        ["decals_1"] = 199,     -- a
+        ["decals_2"] = 4,       -- a 
+
+        ["chain_1"] = 0,        -- a
+        ["chain_2"] = 0,        -- a 
     })
 end
 
 local function LSSDAssistantSheriffPatrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["mask_1"] = 0,         -- 
-        ["mask_2"] = 0,         --  
-        ["arms"] = 92,          --   
-        ["pants_1"] = 269,      --  
-        ["pants_2"] = 0,        --
-        ["shoes_1"] = 51,       --
-        ["shoes_2"] = 0,        --
-        ["tshirt_1"] = 337,     --
-        ["tshirt_2"] = 0,       --
-        ["torso_1"] = 616,      --
-        ["torso_2"] = 1,        --
-        ["decals_1"] = 0,       -- 
-        ["decals_2"] = 0,       --
-        ["glasses_1"] = 0,      -- 
-        ["glasses_2"] = 0,      -- 
-        ["helmet_1"] = -1,      --
-        ["helmet_2"] = 0,       --
-        ["chain_1"] = 224,      -- 
-        ["chain_2"] = 0,        -- 
-        ["watches_1"] = 0,      --
-        ["watches_2"] = 0,      --
-        ["bags_1"] = 145,       --
-        ["bags_2"] = 0,         --
-        ["bproof_1"] = 115,     --
-        ["bproof_2"] = 0        --
+        ["tshirt_1"] = 225,     -- a
+        ["tshirt_2"] = 0,       -- a
+
+        ["torso_1"] = 584,      -- a
+        ["torso_2"] = 2,        -- a
+
+        ["arms"] = 86,          -- a 
+
+        ["bproof_1"] = 99,      -- a
+        ["bproof_2"] = 0,       -- a
+
+        ["pants_1"] = 199,      -- a 
+        ["pants_2"] = 0,        -- a
+
+        ["shoes_1"] = 25,       -- a
+        ["shoes_2"] = 0,        -- a
+
+        ["helmet_1"] = 225,     -- a
+        ["helmet_2"] = 0,       -- a
+
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
+
+        ["bags_1"] = 143,       -- a
+        ["bags_2"] = 5,         -- a
+
+        ["decals_1"] = 199,     -- a
+        ["decals_2"] = 5,       -- a 
+
+        ["chain_1"] = 0,        -- a
+        ["chain_2"] = 0,        -- a 
     })
 end
 
 local function LSSDUnderSheriffPatrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["mask_1"] = 0,         -- 
-        ["mask_2"] = 0,         --  
-        ["arms"] = 92,          --   
-        ["pants_1"] = 269,      --  
-        ["pants_2"] = 0,        --
-        ["shoes_1"] = 51,       --
-        ["shoes_2"] = 0,        --
-        ["tshirt_1"] = 337,     --
-        ["tshirt_2"] = 0,       --
-        ["torso_1"] = 616,      --
-        ["torso_2"] = 1,        --
-        ["decals_1"] = 0,       -- 
-        ["decals_2"] = 0,       --
-        ["glasses_1"] = 0,      -- 
-        ["glasses_2"] = 0,      -- 
-        ["helmet_1"] = -1,      --
-        ["helmet_2"] = 0,       --
-        ["chain_1"] = 224,      -- 
-        ["chain_2"] = 0,        -- 
-        ["watches_1"] = 0,      --
-        ["watches_2"] = 0,      --
-        ["bags_1"] = 145,       --
-        ["bags_2"] = 0,         --
-        ["bproof_1"] = 115,     --
-        ["bproof_2"] = 0        --
+        ["tshirt_1"] = 225,     -- a
+        ["tshirt_2"] = 0,       -- a
+
+        ["torso_1"] = 584,      -- a
+        ["torso_2"] = 2,        -- a
+
+        ["arms"] = 86,          -- a 
+
+        ["bproof_1"] = 99,      -- a
+        ["bproof_2"] = 0,       -- a
+
+        ["pants_1"] = 199,      -- a 
+        ["pants_2"] = 0,        -- a
+
+        ["shoes_1"] = 25,       -- a
+        ["shoes_2"] = 0,        -- a
+
+        ["helmet_1"] = 225,     -- a
+        ["helmet_2"] = 0,       -- a
+
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
+
+        ["bags_1"] = 143,       -- a
+        ["bags_2"] = 7,         -- a
+
+        ["decals_1"] = 198,     -- a
+        ["decals_2"] = 0,       -- a 
+
+        ["chain_1"] = 0,        -- a
+        ["chain_2"] = 0,        -- a 
     })
 end
 
 local function LSSDSheriffPatrola()
     --
     TriggerEvent("skinchanger:loadClothes", {}, {
-        ["mask_1"] = 0,         -- 
-        ["mask_2"] = 0,         --  
-        ["arms"] = 92,          --   
-        ["pants_1"] = 269,      --  
-        ["pants_2"] = 0,        --
-        ["shoes_1"] = 51,       --
-        ["shoes_2"] = 0,        --
-        ["tshirt_1"] = 337,     --
-        ["tshirt_2"] = 0,       --
-        ["torso_1"] = 616,      --
-        ["torso_2"] = 1,        --
-        ["decals_1"] = 0,       -- 
-        ["decals_2"] = 0,       --
-        ["glasses_1"] = 0,      -- 
-        ["glasses_2"] = 0,      -- 
-        ["helmet_1"] = -1,      --
-        ["helmet_2"] = 0,       --
-        ["chain_1"] = 224,      -- 
-        ["chain_2"] = 0,        -- 
-        ["watches_1"] = 0,      --
-        ["watches_2"] = 0,      --
-        ["bags_1"] = 145,       --
-        ["bags_2"] = 0,         --
-        ["bproof_1"] = 115,     --
-        ["bproof_2"] = 0        --
+        ["tshirt_1"] = 225,     -- a
+        ["tshirt_2"] = 0,       -- a
+
+        ["torso_1"] = 584,      -- a
+        ["torso_2"] = 2,        -- a
+
+        ["arms"] = 86,          -- a 
+
+        ["bproof_1"] = 99,      -- a
+        ["bproof_2"] = 0,       -- a
+
+        ["pants_1"] = 199,      -- a 
+        ["pants_2"] = 0,        -- a
+
+        ["shoes_1"] = 25,       -- a
+        ["shoes_2"] = 0,        -- a
+
+        ["helmet_1"] = 225,     -- a
+        ["helmet_2"] = 0,       -- a
+
+        ["mask_1"] = 0,         -- a
+        ["mask_2"] = 0,         -- a
+
+        ["bags_1"] = 143,       -- a
+        ["bags_2"] = 8,         -- a
+
+        ["decals_1"] = 211,       -- a
+        ["decals_2"] = 0,       -- a 
+
+        ["chain_1"] = 0,        -- a
+        ["chain_2"] = 0,        -- a 
     })
 end
 
