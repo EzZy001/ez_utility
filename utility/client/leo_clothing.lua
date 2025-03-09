@@ -93,7 +93,7 @@ exports.ox_target:addBoxZone({
             name = 'open_Ambulance_clothing_menu',
             icon = 'fa-solid fa-shirt',
             distance = 2.0,
-            groups = 'Ambulance',
+            groups = 'ambulance',
             onSelect = function()
                 lib.showContext('Ambulance_kategorie')
             end,
