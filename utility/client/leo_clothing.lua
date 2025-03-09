@@ -14,7 +14,7 @@ RegisterCommand('clothingabcd', function(source, args, rawCommand)
     elseif job == 'lssd' then
         lib.showContext('LSSD_kategorie')
     elseif job == 'ambulance' then
-        lib.showContext('EMS_kategorie')    
+        lib.showContext('Ambulance_kategorie')    
     else
         print('chyba')
     end
@@ -85,17 +85,17 @@ exports.ox_target:addBoxZone({
 -- EMS
 exports.ox_target:addBoxZone({
     coords = vector3(-438.9271, -308.5625, 34.91055),
-    name = 'EMS_clothing_menu',
+    name = 'Ambulance_clothing_menu',
     size = vector3(1.0, 1.0, 1.0),
     options = {
         {
             label = 'Šatník EMS',
-            name = 'open_EMS_clothing_menu',
+            name = 'open_Ambulance_clothing_menu',
             icon = 'fa-solid fa-shirt',
             distance = 2.0,
-            groups = 'ems',
+            groups = 'Ambulance',
             onSelect = function()
-                lib.showContext('EMS_kategorie')
+                lib.showContext('Ambulance_kategorie')
             end,
         }
     }
@@ -4773,7 +4773,7 @@ lib.registerContext({
 
 ----------------------------------------------
 lib.registerContext({
-    id = 'EMS_kategorie',
+    id = 'Ambulance_kategorie',
     title = 'Pracovní šatník EMS',
     options = {
         {
@@ -4844,7 +4844,7 @@ lib.registerContext({
 lib.registerContext({
     id = 'EMS_train',
     title = 'Train - muži',
-    menu = 'EMS_kategorie',
+    menu = 'Ambulance_kategorie',
     options = {
         {
             title = 'Traine - Výjezd',
@@ -4879,7 +4879,7 @@ lib.registerContext({
 lib.registerContext({
     id = 'EMS_docent',
     title = 'Docent - muži',
-    menu = 'EMS_kategorie',
+    menu = 'Ambulance_kategorie',
     options = {
         {
             title = 'Docent - Výjezd',
@@ -4923,7 +4923,7 @@ lib.registerContext({
 lib.registerContext({
     id = 'EMS_ac',
     title = 'AC - muži',
-    menu = 'EMS_kategorie',
+    menu = 'Ambulance_kategorie',
     options = {
         {
             title = 'AC - Výjezd',
@@ -4967,7 +4967,7 @@ lib.registerContext({
 lib.registerContext({
     id = 'EMS_prof',
     title = 'Prof - muži',
-    menu = 'EMS_kategorie',
+    menu = 'Ambulance_kategorie',
     options = {
         {
             title = 'Prof - Výjezd',
@@ -5011,7 +5011,7 @@ lib.registerContext({
 lib.registerContext({
     id = 'EMS_prim',
     title = 'Prim - muži',
-    menu = 'EMS_kategorie',
+    menu = 'Ambulance_kategorie',
     options = {
         {
             title = 'Prim - Výjezd',
@@ -5064,7 +5064,7 @@ lib.registerContext({
 lib.registerContext({
     id = 'EMS_sup',
     title = 'Sup - muži',
-    menu = 'EMS_kategorie',
+    menu = 'Ambulance_kategorie',
     options = {
         {
             title = 'Sup - Výjezd',
@@ -5117,7 +5117,7 @@ lib.registerContext({
 lib.registerContext({
     id = 'EMS_head',
     title = 'Head - muži',
-    menu = 'EMS_kategorie',
+    menu = 'Ambulance_kategorie',
     options = {
         {
             title = 'Head - Výjezd',
@@ -5170,7 +5170,7 @@ lib.registerContext({
 lib.registerContext({
     id = 'EMS_ochranka',
     title = 'Ochranka - muži',
-    menu = 'EMS_kategorie',
+    menu = 'Ambulance_kategorie',
     options = {
         {
             title = 'Ochranka',
@@ -5188,7 +5188,7 @@ lib.registerContext({
 lib.registerContext({
     id = 'EMS_airunit',
     title = 'Air Unit - muži',
-    menu = 'EMS_kategorie',
+    menu = 'Ambulance_kategorie',
     options = {
         {
             title = 'Air Unit Pilot',
